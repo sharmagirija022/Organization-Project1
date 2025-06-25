@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.centre-content {
+    text-align: center;
+    padding: 15px 0;
+    margin: 20px auto 30px auto; ;
+    background-color: #B30000;
+    color: #ffffff;
+    border: 1px solid black;
+    max-width: 90%;
+   
+}
+
+.fixed-buttons {
+ display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px
+}
+
+.fixed-buttons button {
+  background-color: #b30000;
+  color: white;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.fixed-buttons button:hover {
+  background-color: #cc0000;
+}
+
+.btn-1 {
+    width: 100px;
+    height: 50px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #B30000;
+    color: #ffffff;
+    
+    
+}
+
+.btn-2 {
+     width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #B30000;
+    color: #ffffff;    
+}
+
+.image-row {
+    display: flex;
+  justify-content: center;
+  gap: 80px; /* space between images */
+  flex-wrap: wrap; /* for responsiveness */
+  margin-top: 20px;
+}
+
+.image-row img {
+  width: 300px; /* or any desired size */
+  height: auto;
+  border-radius: 10px; /* optional rounded corners */
+}
+
+.image-1 {
+    display: flex;
+  justify-content: center;
+  gap: 80px; /* space between images */
+  flex-wrap: wrap; /* for responsiveness */
+  margin-top: 20px;
+}
+
+.image-1 img {
+    width: 1000px; /* or any desired size */
+  height: auto;
+  border-radius: 10px;
+}
+
+.video-section {
+    display: flex;
+  justify-content: center;
+  gap: 80px; /* space between images */
+  flex-wrap: wrap; /* for responsiveness */
+  margin-top: 20px;
+}
+
+#para1 {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px; /* Optional: to avoid full-width stretching */
+  font-size: 25px;
+}
+#para2 {
+    text-align: center;
+  margin: 20px auto;
+  max-width: 800px; /* Optional: to avoid full-width stretching */
+  font-size: 20px;
+}
+#para3 {
+    text-align: center;
+  margin: 20px auto;
+  max-width: 1000px; /* Optional: to avoid full-width stretching */
+  font-size: 20px;
+}
+    
+#para4 {
+    text-align: center;
+  margin: 20px auto;
+  max-width: 2000px; /* Optional: to avoid full-width stretching */
+  font-size: 20px;
+}
+#para5 {
+     text-align: center;
+  margin: 20px auto;
+  max-width: 2000px; /* Optional: to avoid full-width stretching */
+  font-size: 20px;
+}
+
+
+
+
+
